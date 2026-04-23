@@ -1,4 +1,4 @@
-print("Hello from my new dev enfvironment!")
+print("Hello from my new dev environment!")
 password = input("Enter Your Password Here")
 if password == "ameer12345":
     print("Successful")
