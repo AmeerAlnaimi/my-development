@@ -1,0 +1,33 @@
+my_integer_var = 4.21
+print("float:", my_integer_var)
+
+# * Just testing different data types
+
+boolean_var = False
+print("Boolean", boolean_var)
+
+
+set_var = {67, "joke relax", 67.67}
+print("set variable", set_var)
+
+dictionary_var = {"name": "John", "age": 25}
+print("dictionary variable:", dictionary_var)
+
+tuple_var = (67, "hello", 91.5)
+print("tuple variable", tuple_var)
+
+
+range_var = range(7)
+print("range:", range_var)
+
+my_list = [22, "Just programming:)", 22.344, False]
+print("List:", my_list)
+
+none_var = None
+print("None variable:", none_var)
+
+
+print(type(range_var))  # * The type feature identify the data type of
+print(type(dictionary_var))  # * the variable
+
+isinstance("hello world", str)
