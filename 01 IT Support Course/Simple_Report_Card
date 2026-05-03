@@ -1,0 +1,10 @@
+name = "John"
+print(name, type(name))
+
+age = 19
+print(isinstance(age, int))
+
+score = 24.1
+print(score, type(score))
+
+print(name, "and is", age, "and has the score of", score)
