@@ -31,3 +31,18 @@ print(type(range_var))  # * The type feature identify the data type of
 print(type(dictionary_var))  # * the variable
 
 isinstance("hello world", str)
+
+my_string_2 = "Welcome people!"
+print(
+    "Welcome" in my_string_2
+)  # * "IN" is an operator that returns a boolean (True or False) whteher the character or characters exist in the string.
+print(
+    isinstance(my_string_2, str)
+)  # * 'Isinstance' checks the type of function you place for a variable.
+
+print(
+    len(my_string_2)
+)  # * "len" fuction shows the enitre length of a string  (e.g. 15 total characters in this case)
+print(
+    my_string_2[0]
+)  # * the '[]' selects a specific character of a string    NOTE that it starts from 0, not 1. (e.g. [0] is W, [1] is e)
