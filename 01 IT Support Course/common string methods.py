@@ -21,7 +21,7 @@ print(trimmedmystring3)
 greeting = "Hello guys"
 replacedgreeting = greeting.replace(
     "Hello", "Yo"
-)  # * "replace" method returns a new string with all occurances of "OLD" replaced by "NEW"   SYNTAX: replace(OLD,NEW)
+)  # * "replace" method returns a new string with all occurances of "OLD" replaced by "NEW"   SYNTAX: replace(OLD, NEW)
 print(replacedgreeting)
 
 # -------------------
