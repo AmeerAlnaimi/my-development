@@ -145,3 +145,8 @@ print("power: ", result1)
 
 just_a_variable = pow(12, 2)
 print(just_a_variable)
+
+example = "hello"
+example += " "  # * using the same variable to add stirngs by using (+=); this is called augmented assignments
+example += "guys"
+print(example)
