@@ -142,3 +142,6 @@ print(abs_num)
 # * Simple power
 result1 = pow(8, 3)  # * Which is equavilent to 2 ** 3
 print("power: ", result1)
+
+just_a_variable = pow(12, 2)
+print(just_a_variable)
