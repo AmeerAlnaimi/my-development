@@ -150,3 +150,35 @@ example = "hello"
 example += " "  # * using the same variable to add stirngs by using (+=); this is called augmented assignments
 example += "guys"
 print(example)
+
+# ------------------------------------------------
+# * Now I'll start with how augmented assignments work and how efficient they are!
+
+# * Efficient example of augmented assignment:
+simple = 20
+simple += 20
+print(simple)
+
+# * Without using augmented assignment:
+not_simple = 20
+not_simple = not_simple + 20
+print("Without augmented assignment:", not_simple)
+
+# * Now for other types of augmented assignment operators
+multiplication_operator = 20
+multiplication_operator *= 3
+print("Multiplication Augmented assignment:", multiplication_operator)
+
+division_operator = 144
+division_operator /= 6
+print("Division augmented assignment:", division_operator)
+
+subtraction_operator = 100
+subtraction_operator -= 93
+print("Subtraction augmented assignment:", subtraction_operator)
+
+floordiv_operator = 100
+floordiv_operator //= 3  #* Recall that floor division removes the decimal point, effectively making a float into an integer.
+print(floordiv_operator)
+
+abs_operator = 
