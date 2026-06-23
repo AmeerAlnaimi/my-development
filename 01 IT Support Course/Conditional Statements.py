@@ -19,3 +19,5 @@ print(
 print(
     6 <= 5
 )  # * The operator "<=" shows that 6 is LESS OR EQUAL to 5, which is incorrect and will show an output of a "False" boolean
+
+print(5 <= 4)
